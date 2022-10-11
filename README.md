@@ -8,6 +8,8 @@ __Figma:__ <https://www.figma.com/file/S36tfFpl696IbnEWEwJb9y/UI-Design---Dashbo
 
 __API Deploy Heroku:__ <https://api-alunos-brintell.herokuapp.com/>
 
+__Repositório Back-end:__ <https://github.com/LeonelBarreto/-BACK-_Desafio-tecnico-Brintell>
+
 ## __Pré-requisitos__
 - Node.js;
 - React.js
