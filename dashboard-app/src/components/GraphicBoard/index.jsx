@@ -1,6 +1,6 @@
 import './styles.css';
 import { Chart } from 'react-google-charts';
-import {useEffect, useState} from 'react'
+
 export const options = {
     title: "",
     backgroundColor: 'transparent',

@@ -102,17 +102,14 @@ export default function StudentModal({setOpenRegisterModal, loadAPI, register, s
                             <div
                                 onClick={() => setForm({...form, sexo: "Masculino"})}
                             >
-                                <img 
-                                src={`${form.sexo === "Masculino" ? selectedInput : desselectedInput}`}
+                                <img src={`${form.sexo === "Masculino" ? selectedInput : desselectedInput}`} alt='botão sexo masculino'
                                 />
                                 <label htmlFor="sexo-m">Masculino</label>
                             </div>
                             <div
                                 onClick={() => setForm({...form, sexo: "Feminino"})}
                             >
-                                <img 
-                                src={`${form.sexo === "Feminino" ? selectedInput : desselectedInput}`}
-                                />
+                                <img src={`${form.sexo === "Feminino" ? selectedInput : desselectedInput}`} alt='botão sexo masculino'/>
                                 <label htmlFor="sexo-f">Feminino</label>
                             </div>
                         </div>
